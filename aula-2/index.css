@@ -1,0 +1,13 @@
+/* Text Classes */
+
+.t-big {
+    font-size: 1.2rem;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-bold {
+    font-weight: bold;
+}
