@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon -->
+    <link rel="icon" href="logo-tailwind.png" type="image/x-icon">
+
+    <!-- Import CDN  -->
+    <script src="http://cdn.tailwindcss.com"></script>
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Title -->
+    <title>Tailwind Aula-04</title>
+
+</head>
+
+<body class="text-white bg-neutral-900 p-8">
+    <h2 class="text-4xl t-bold t-underline text-center mb-8">text-align</h2>
+
+    <div class="bg-neutral-800 w-1/2 p-4 mb-2">
+        <h3 class="mb-2 text-neutral-100 text-xl">text-left</h3>
+
+        <p class="text-left text-lg text-neutral-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            dolorum veritatis hic eius consectetur optio
+            suscipit, error excepturi possimus dolor dignissimos aspernatur illum tenetur qui nam, quibusdam dicta iusto
+            quod!
+        </p>
+    </div>
+
+    <div class="bg-neutral-800 w-1/2 p-4 mb-2">
+        <h3 class="mb-2 text-neutral-100 text-xl">text-center</h3>
+
+        <p class="text-center text-lg text-neutral-300">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni illo accusantium quo nisi quasi iste itaque
+            odio. Labore soluta illo, pariatur nostrum magni perspiciatis optio incidunt atque dolore esse. Recusandae?
+        </p>
+    </div>
+
+    <div class="bg-neutral-800 w-1/2 p-4 mb-2 ">
+        <h3 class="mb-2 text-neutral-100 text-xl">text-right</h3>
+
+        <p class="text-right text-lg text-neutral-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sed odio pariatur incidunt excepturi,
+            blanditiis fuga magni. Sint illo facere maiores nulla. Accusamus temporibus fugiat quas perferendis nam,
+            magnam reprehenderit!
+        </p>
+    </div>
+
+    <div class="bg-neutral-800 w-1/2 p-4 mb-2">
+        <h3 class="mb-2 text-neutral-100 text-xl">text-justify</h3>
+
+        <p class="text-justify text-lg text-neutral-300">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quas cupiditate sapiente? Natus illum tenetur
+            eius recusandae excepturi laboriosam eos, repudiandae earum inventore sapiente officia adipisci ratione
+            saepe! Tempore, illum.
+        </p>
+
+    </div>
+
+
+    <hr class="mt-8 mb-8">
+
+    <h2 class="t-bold text-4xl mb-8 text-center t-underline">font-size</h2>
+
+    <p class="text-xs">extra small: 0.75rem == 12px</p>
+    <p class="text-sm">small: 0.875rem == 14px</p>
+    <p class="text-base">default: 1rem == 16px</p>
+    <p class="text-lg">large: 1.125rem == 18px</p>
+    <p class="text-xl">extra large: 1.25rem == 20px</p>
+    <p class="text-2xl">2-extra large: 1.5rem == 24px</p>
+    <p class="text-3xl">3-extra large: 1.85rem == 30px</p>
+    <p class="text-4xl">4-extra large: 2.25rem == 36px</p>
+    <p class="text-5xl">5-extra large: 3rem == 48px</p>
+    <p class="text-6xl">6-extra large: 3.75rem == 60px</p>
+    <p class="text-7xl">7-extra large: 4.5rem == 72px</p>
+    <p class="text-8xl">8-extra large: 6rem == 96px</p>
+    <p class="text-9xl">9-extra large: 8rem == 128px</p>
+
+    <hr class="my-8">
+
+    <h2 class="t-bold t-underline text-4xl mb-8 text-center">font-style</h2>
+
+    <h3 class="mb-2 text-xl">italic:</h3>
+    <div class="italic bg-zinc-700 text-white p-8 text-2xl mb-4">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus amet, eveniet corrupti adipisci
+        quas neque accusantium sunt? Assumenda sit inventore deleniti eos iusto molestias reiciendis, in odio repellat
+        nihil?
+
+    </div>
+
+    <h3 class="mb-2 text-xl">not-italic:</h3>
+    <div class="not-italic bg-zinc-700 text-white p-8 text-2xl mb-4">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatibus amet eveniet, ex reprehenderit
+        impedit, dolorum, voluptate iste repellat doloribus quos cumque excepturi temporibus quisquam nostrum aperiam
+        necessitatibus esse culpa?
+
+    </div>
+
+    <hr class="my-8">
+
+    <h2 class="t-bold t-underline text-4xl mb-8 text-center">text-decoration</h2>
+
+ <div class="flex l-fd-col">
+
+    <p class="mb-4 p-2 bg-zinc-700">
+        <span class="bg-blue-600 t-bold text-2xl text-white">underline:</span><span class="underline text-white text-2xl p-2 mb-4">this is text with class underline</span>
+    </p>
+ 
+    <p class="mb-4 p-2 bg-zinc-700">
+        <span class="bg-blue-600 t-bold text-2xl text-white">overline:</span><span class="overline text-white text-2xl p-2 mb-4">this is a text with class overline</span>
+    </p>
+
+    <p class="mb-4 p-2 bg-zinc-700">
+        <span class="bg-blue-600 t-bold text-2xl text-white">line-through:</span><span class="line-through text-white text-2xl p-2 mb-4">this is a text with class line-through</span>
+    </p>
+
+    <p class="mb-4 p-2 bg-zinc-700">
+        <span class="bg-blue-600 t-bold text-2xl text-white">no-underline:</span><span class="no-underline text-white text-2xl p-2 mb-4">this is a text with class no-underline</span>
+    </p>
+ </div>
+
+    <hr class="my-8">
+
+    <h2 class="t-bold underline text-4xl mb-8 text-center">text-transform</h2>
+
+    <div class="flex l-fd-col">
+       <p class="mb-4 p-2 bg-zinc-700">
+        <span class="bg-red-600 t-bold text-2xl text-white">normal-case:</span> <span class="normal-case text-white text-2xl">This is a text with a class normal-case</span>
+       </p>
+
+       <p class="mb-4 p-2 bg-zinc-700">
+        <span class="bg-red-600 t-bold text-2xl text-white">uppercase:</span><span class="uppercase bg-zinc-700 text-white text-2xl p-2 mb-4">This is a text with a class uppercase</span>
+       </p>
+
+       <p class="mb-4 p-2 bg-zinc-700">
+        <span class="bg-red-600 t-bold text-2xl text-white">lowercase:</span><span class="lowercase bg-zinc-700 text-white text-2xl p-2 mb-4">This is a text with a class lowercase</span>
+       </p>
+
+       <p class="mb-4 p-2 bg-zinc-700">
+        <span class="bg-red-600 t-bold text-2xl text-white">capitalize:</span><span class="capitalize bg-neutral-700 text-white text-2xl p-2 mb-4">This is a text with a class capitalize</span>
+       </p>
+    </div>
+    
+</body>
+
+</html>
