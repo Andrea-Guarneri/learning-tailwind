@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CDN Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="logo-tailwind.png">
+
+    <title>Tailwind-aula5</title>
+
+</head>
+
+<body class="text-white bg-neutral-900 p-8">
+    <h2 class="text-4xl t-bold t-underline text-center mb-8">text-align</h2>
+
+    <div class="bg-neutral-800 w-1/2 p-4 mb-2">
+        <h3 class="mb-2 text-neutral-100 text-xl">text-left</h3>
+
+        <p class="text-left text-lg text-neutral-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            dolorum veritatis hic eius consectetur optio
+            suscipit, error excepturi possimus dolor dignissimos aspernatur illum tenetur qui nam, quibusdam dicta iusto
+            quod!
+        </p>
+    </div>
+
+    <div class="bg-neutral-800 w-1/2 p-4 mb-2">
+        <h3 class="mb-2 text-neutral-100 text-xl">text-center</h3>
+
+        <p class="text-center text-lg text-neutral-300">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni illo accusantium quo nisi quasi iste itaque
+            odio. Labore soluta illo, pariatur nostrum magni perspiciatis optio incidunt atque dolore esse. Recusandae?
+        </p>
+    </div>
+
+    <div class="bg-neutral-800 w-1/2 p-4 mb-2 ">
+        <h3 class="mb-2 text-neutral-100 text-xl">text-right</h3>
+
+        <p class="text-right text-lg text-neutral-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sed odio pariatur incidunt excepturi,
+            blanditiis fuga magni. Sint illo facere maiores nulla. Accusamus temporibus fugiat quas perferendis nam,
+            magnam reprehenderit!
+        </p>
+    </div>
+
+    <div class="bg-neutral-800 w-1/2 p-4 mb-2">
+        <h3 class="mb-2 text-neutral-100 text-xl">text-justify</h3>
+
+        <p class="text-justify text-lg text-neutral-300">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quas cupiditate sapiente? Natus illum tenetur
+            eius recusandae excepturi laboriosam eos, repudiandae earum inventore sapiente officia adipisci ratione
+            saepe! Tempore, illum.
+        </p>
+
+    </div>
+
+
+    <hr class="mt-8 mb-8">
+
+    <h2 class="t-bold text-4xl mb-8 text-center t-underline">font-size</h2>
+
+    <p class="text-xs">extra small: 0.75rem == 12px</p>
+    <p class="text-sm">small: 0.875rem == 14px</p>
+    <p class="text-base">default: 1rem == 16px</p>
+    <p class="text-lg">large: 1.125rem == 18px</p>
+    <p class="text-xl">extra large: 1.25rem == 20px</p>
+    <p class="text-2xl">2-extra large: 1.5rem == 24px</p>
+    <p class="text-3xl">3-extra large: 1.85rem == 30px</p>
+    <p class="text-4xl">4-extra large: 2.25rem == 36px</p>
+    <p class="text-5xl">5-extra large: 3rem == 48px</p>
+    <p class="text-6xl">6-extra large: 3.75rem == 60px</p>
+    <p class="text-7xl">7-extra large: 4.5rem == 72px</p>
+    <p class="text-8xl">8-extra large: 6rem == 96px</p>
+    <p class="text-9xl">9-extra large: 8rem == 128px</p>
+
+    <hr class="my-8">
+
+    <h2 class="t-bold t-underline text-4xl mb-8 text-center">font-style</h2>
+
+    <h3 class="mb-2 text-xl">italic:</h3>
+    <div class="italic bg-zinc-700 text-white p-8 text-2xl mb-4">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloribus amet, eveniet corrupti adipisci
+        quas neque accusantium sunt? Assumenda sit inventore deleniti eos iusto molestias reiciendis, in odio repellat
+        nihil?
+
+    </div>
+
+    <h3 class="mb-2 text-xl">not-italic:</h3>
+    <div class="not-italic bg-zinc-700 text-white p-8 text-2xl mb-4">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatibus amet eveniet, ex reprehenderit
+        impedit, dolorum, voluptate iste repellat doloribus quos cumque excepturi temporibus quisquam nostrum aperiam
+        necessitatibus esse culpa?
+
+    </div>
+
+    <hr class="my-8">
+
+    <h2 class="t-bold t-underline text-4xl mb-8 text-center">text-decoration</h2>
+
+    <div class="flex l-fd-col">
+
+        <p class="mb-4 p-2 bg-zinc-700">
+            <span class="bg-blue-600 t-bold text-2xl text-white">underline:</span><span
+                class="underline text-white text-2xl p-2 mb-4">this is text with class underline</span>
+        </p>
+
+        <p class="mb-4 p-2 bg-zinc-700">
+            <span class="bg-blue-600 t-bold text-2xl text-white">overline:</span><span
+                class="overline text-white text-2xl p-2 mb-4">this is a text with class overline</span>
+        </p>
+
+        <p class="mb-4 p-2 bg-zinc-700">
+            <span class="bg-blue-600 t-bold text-2xl text-white">line-through:</span><span
+                class="line-through text-white text-2xl p-2 mb-4">this is a text with class line-through</span>
+        </p>
+
+        <p class="mb-4 p-2 bg-zinc-700">
+            <span class="bg-blue-600 t-bold text-2xl text-white">no-underline:</span><span
+                class="no-underline text-white text-2xl p-2 mb-4">this is a text with class no-underline</span>
+        </p>
+    </div>
+
+    <hr class="my-8">
+
+    <h2 class="t-bold underline text-4xl mb-8 text-center">text-transform</h2>
+
+    <div class="flex l-fd-col">
+        <p class="mb-4 p-2 bg-zinc-700">
+            <span class="bg-red-600 t-bold text-2xl text-white">normal-case:</span> <span
+                class="normal-case text-white text-2xl">This is a text with a class normal-case</span>
+        </p>
+
+        <p class="mb-4 p-2 bg-zinc-700">
+            <span class="bg-red-600 t-bold text-2xl text-white">uppercase:</span><span
+                class="uppercase bg-zinc-700 text-white text-2xl p-2 mb-4">This is a text with a class uppercase</span>
+        </p>
+
+        <p class="mb-4 p-2 bg-zinc-700">
+            <span class="bg-red-600 t-bold text-2xl text-white">lowercase:</span><span
+                class="lowercase bg-zinc-700 text-white text-2xl p-2 mb-4">This is a text with a class lowercase</span>
+        </p>
+
+        <p class="mb-4 p-2 bg-zinc-700">
+            <span class="bg-red-600 t-bold text-2xl text-white">capitalize:</span><span
+                class="capitalize bg-neutral-700 text-white text-2xl p-2 mb-4">This is a text with a class
+                capitalize</span>
+        </p>
+    </div>
+
+    <hr class="my-8">
+
+    <h2 class="t-bold underline text-4xl mb-8 text-center">font-weight</h2>
+
+    <div class="flex l-fd-col a-mw-1280 a-ml-auto a-mr-auto">
+        
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-thin</span>
+            </div>
+
+            <p class="font-thin text-xl">
+                font-thin is equivalent to <span class="bg-red-600 p-2">font-weight: 100</span>
+            </p>
+        </div>
+
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-extralight</span>
+            </div>
+
+            <p class="font-extralight text-xl">
+                font-extralight is equivalent to <span class="bg-red-600 p-2">font-weight: 200</span>
+            </p>
+        </div>
+
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-light</span>
+            </div>
+
+            <p class="font-light text-xl">
+                font-light is equivalent to <span class="bg-red-600 p-2">font-weight: 300</span>
+            </p>
+        </div>
+
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-normal</span>
+            </div>
+
+            <p class="font-normal text-xl">
+                font-normal is equivalent to <span class="bg-red-600 p-2">font-weight: 400</span>
+            </p>
+        </div>
+
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-medium</span>
+            </div>
+
+            <p class="font-medium text-xl">
+                font-medium is equivalent to <span class="bg-red-600 p-2">font-weight: 500</span>
+            </p>
+        </div>
+
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-semibold</span>
+            </div>
+            
+            <p class="font-semibold text-xl">
+                font-semibold is equivalent to <span class="bg-red-600 p-2">font-weight: 600</span>
+            </p>
+        </div>
+
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-bold</span>
+            </div>
+
+            <p class="font-bold text-xl">
+                font-bold is equivalent to <span class="bg-red-600 p-2">font-weight: 700</span>
+            </p>
+        </div>
+
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-extrabold</span>
+            </div>
+            
+            <p class="font-extrabold text-xl">
+                font-extrabold is equivalent to <span class="bg-red-600 p-2">font-weight: 800</span>
+            </p>
+        </div>
+
+        <div class="bg-zinc-800 p-8 mb-4">
+            <div class="mb-8">
+                <span class="bg-white text-black px-4 py-2 text-2xl">font-black</span>
+            </div>
+
+            <p class="font-black text-xl">
+                font-black is equivalent to <span class="bg-red-600 p-2">font-weight: 900</span>
+            </p>
+        </div>
+    </div>
+
+    <hr class="my-8">
+
+    <div class="flex l-fd-col">
+
+        <h2 class="font-bold underline text-4xl mb-8 text-center">line-clamp</h2>
+
+        <div class="flex l-fd-col a-mw-1280 p-8 a-ml-auto a-mr-auto bg-zinc-800">
+            <div class="mb-8 a-border-bottom pb-8">
+
+                <h4 class="font-semibold mb-2 text-zinc-400 text-xl">line-clamp-none</h4>
+
+                <p class="line-clamp-none font-extralight text-2xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae, consequatur in incidunt culpa eos. Iusto dolores quod nisi velit corporis quis! Hic optio distinctio itaque, fugiat cumque nihil temporibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores molestias maxime quidem nihil libero illum facilis enim inventore minima non rem deleniti, quod accusamus cumque aperiam officiis sint voluptas ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laudantium. Accusamus voluptatibus quos temporibus ipsam aspernatur adipisci libero, cumque, dolore ipsum quis, tempora cupiditate ex et pariatur? Fugit, autem nostrum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt deserunt reprehenderit consectetur eaque. Nihil sint, provident ex rem minima reiciendis natus non, molestiae odit sequi, amet commodi earum quis sapiente?
+                </p>
+            </div>
+
+            <div class="mb-8 a-border-bottom pb-8">
+
+                <h4 class="font-semibold mb-2 text-zinc-400 text-xl">line-clamp-1</h4>
+
+                <p class="line-clamp-1 font-extralight text-2xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae, consequatur in incidunt culpa eos. Iusto dolores quod nisi velit corporis quis! Hic optio distinctio itaque, fugiat cumque nihil temporibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores molestias maxime quidem nihil libero illum facilis enim inventore minima non rem deleniti, quod accusamus cumque aperiam officiis sint voluptas ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laudantium. Accusamus voluptatibus quos temporibus ipsam aspernatur adipisci libero, cumque, dolore ipsum quis, tempora cupiditate ex et pariatur? Fugit, autem nostrum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt deserunt reprehenderit consectetur eaque. Nihil sint, provident ex rem minima reiciendis natus non, molestiae odit sequi, amet commodi earum quis sapiente?
+                </p>
+            </div>
+
+            <div class="mb-8 a-border-bottom pb-8">
+
+                <h4 class="font-semibold mb-2 text-zinc-400 text-xl">line-clamp-2</h4>
+
+                <p class="line-clamp-2 font-extralight text-2xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae, consequatur in incidunt culpa eos. Iusto dolores quod nisi velit corporis quis! Hic optio distinctio itaque, fugiat cumque nihil temporibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores molestias maxime quidem nihil libero illum facilis enim inventore minima non rem deleniti, quod accusamus cumque aperiam officiis sint voluptas ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laudantium. Accusamus voluptatibus quos temporibus ipsam aspernatur adipisci libero, cumque, dolore ipsum quis, tempora cupiditate ex et pariatur? Fugit, autem nostrum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt deserunt reprehenderit consectetur eaque. Nihil sint, provident ex rem minima reiciendis natus non, molestiae odit sequi, amet commodi earum quis sapiente?
+                </p>
+            </div>
+
+            <div class="mb-8 a-border-bottom pb-8">
+
+                <h4 class="font-semibold mb-2 text-zinc-400 text-xl">line-clamp-3</h4>
+
+                <p class="line-clamp-3 font-extralight text-2xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae, consequatur in incidunt culpa eos. Iusto dolores quod nisi velit corporis quis! Hic optio distinctio itaque, fugiat cumque nihil temporibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores molestias maxime quidem nihil libero illum facilis enim inventore minima non rem deleniti, quod accusamus cumque aperiam officiis sint voluptas ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laudantium. Accusamus voluptatibus quos temporibus ipsam aspernatur adipisci libero, cumque, dolore ipsum quis, tempora cupiditate ex et pariatur? Fugit, autem nostrum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt deserunt reprehenderit consectetur eaque. Nihil sint, provident ex rem minima reiciendis natus non, molestiae odit sequi, amet commodi earum quis sapiente?
+                </p>
+            </div>
+
+            <div class="mb-8 a-border-bottom pb-8">
+
+                <h4 class="font-semibold mb-2 text-zinc-400 text-xl">line-clamp-4</h4>
+
+                <p class="line-clamp-4 font-extralight text-2xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae, consequatur in incidunt culpa eos. Iusto dolores quod nisi velit corporis quis! Hic optio distinctio itaque, fugiat cumque nihil temporibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores molestias maxime quidem nihil libero illum facilis enim inventore minima non rem deleniti, quod accusamus cumque aperiam officiis sint voluptas ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laudantium. Accusamus voluptatibus quos temporibus ipsam aspernatur adipisci libero, cumque, dolore ipsum quis, tempora cupiditate ex et pariatur? Fugit, autem nostrum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt deserunt reprehenderit consectetur eaque. Nihil sint, provident ex rem minima reiciendis natus non, molestiae odit sequi, amet commodi earum quis sapiente?
+                </p>
+            </div>
+
+            <div class="mb-8 a-border-bottom pb-8">
+
+                <h4 class="font-semibold mb-2 text-zinc-400 text-xl">line-clamp-5</h4>
+
+                <p class="line-clamp-5 font-extralight text-2xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae, consequatur in incidunt culpa eos. Iusto dolores quod nisi velit corporis quis! Hic optio distinctio itaque, fugiat cumque nihil temporibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores molestias maxime quidem nihil libero illum facilis enim inventore minima non rem deleniti, quod accusamus cumque aperiam officiis sint voluptas ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laudantium. Accusamus voluptatibus quos temporibus ipsam aspernatur adipisci libero, cumque, dolore ipsum quis, tempora cupiditate ex et pariatur? Fugit, autem nostrum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt deserunt reprehenderit consectetur eaque. Nihil sint, provident ex rem minima reiciendis natus non, molestiae odit sequi, amet commodi earum quis sapiente?
+                </p>
+            </div>
+
+            <div class="mb-8 a-border-bottom pb-8">
+
+                <h4 class="font-semibold mb-2 text-zinc-400 text-xl">line-clamp-6</h4>
+
+                <p class="line-clamp-6 font-extralight text-2xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae, consequatur in incidunt culpa eos. Iusto dolores quod nisi velit corporis quis! Hic optio distinctio itaque, fugiat cumque nihil temporibus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores molestias maxime quidem nihil libero illum facilis enim inventore minima non rem deleniti, quod accusamus cumque aperiam officiis sint voluptas ad! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laudantium. Accusamus voluptatibus quos temporibus ipsam aspernatur adipisci libero, cumque, dolore ipsum quis, tempora cupiditate ex et pariatur? Fugit, autem nostrum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt deserunt reprehenderit consectetur eaque. Nihil sint, provident ex rem minima reiciendis natus non, molestiae odit sequi, amet commodi earum quis sapiente?
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
