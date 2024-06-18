@@ -30,3 +30,7 @@
 .a-border-bottom {
     border-bottom: 1px solid #ccc;
 }
+
+.l-gap-8 {
+    gap: 32px;
+}
