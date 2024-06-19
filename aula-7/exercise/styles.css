@@ -1,0 +1,21 @@
+/* sizing class */
+
+.a-mw-1280 {
+    max-width: 1280px;
+}
+
+.l-fd-col {
+    flex-direction: column;
+}
+
+.l-gap-4 {
+    gap: 16px;
+}
+
+.l-align-items-center {
+    align-items: center;
+}
+
+.l-justify-center {
+    justify-content: center;
+}
