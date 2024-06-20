@@ -1,0 +1,33 @@
+/* sizing class */
+
+.a-max-width-1440 {
+    max-width: 1440px;
+}
+
+.l-fd-col {
+    flex-direction: column;
+}
+
+.l-gap-4 {
+    gap: 16px;
+}
+
+.l-gap-8 {
+    gap: 32px;
+}
+
+.l-gap-24 {
+    gap: 96px;
+}
+
+.l-align-items-center {
+    align-items: center;
+}
+
+.l-justify-center {
+    justify-content: center;
+}
+
+.l-space-between {
+    justify-content: space-between;
+}
