@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CDN Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="logo-tailwind.png">
+
+    <title>Tailwind-aula9</title>
+
+</head>
+
+<body class="bg-black text-white">
+    <h2 class="font-bold text-4xl underline text-center p-4 my-8">Displays</h2>
+
+    <div class="p-8">
+        <!---------------------------------------------------------------BLOCK --------------------------------------------------------------->
+        <h3 class="font-bold text-2xl border-b border-b-zinc-500 pb-4">block == display: block</h3>
+
+        <div class="mt-8">
+            <p class="block text-lg font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                distinctio tempora voluptatibus magnam rem ipsa laudantium placeat a delectus pariatur, voluptas maxime
+                ut obcaecati tenetur optio sit! Est, sunt hic. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="block font-medium bg-red-600 p-1"> This is a span with display block</span> Odio rerum
+                porro sint. Odio sequi similique, quaerat quibusdam eos earum distinctio dicta ipsum! Ipsum
+                exercitationem distinctio reiciendis, tempora commodi sit id! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Id, quisquam! Quas labore beatae quisquam sunt sapiente voluptatum a necessitatibus
+                provident commodi, tenetur temporibus quaerat voluptate harum nulla aliquam molestiae voluptas.
+            </p>
+        </div>
+
+        <div class="block mt-8">
+            <div class="h-48 w-48 bg-emerald-600">square one</div>
+            <div class="h-48 w-48 bg-sky-600">square two</div>
+            <div class="h-48 w-48 bg-purple-600">square three</div>
+        </div>
+
+        <!--------------------------------------------------------------INLINE---------------------------------------------------------------->
+        <h3 class="font-bold text-2xl border-b border-b-zinc-500 pb-4 mt-12">inline == display: inline</h3>
+
+        <div class="mt-8">
+            <p class="block text-lg font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                distinctio tempora voluptatibus magnam rem ipsa laudantium placeat a delectus pariatur, voluptas maxime
+                ut obcaecati tenetur optio sit! Est, sunt hic. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="inline font-medium bg-red-600 p-1"> This is a span with display inline</span> Odio rerum
+                porro sint. Odio sequi similique, quaerat quibusdam eos earum distinctio dicta ipsum! Ipsum
+                exercitationem distinctio reiciendis, tempora commodi sit id! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Id, quisquam! Quas labore beatae quisquam sunt sapiente voluptatum a necessitatibus
+                provident commodi, tenetur temporibus quaerat voluptate harum nulla aliquam molestiae voluptas.
+            </p>
+        </div>
+
+        <div class="inline mt-8">
+            <div class="h-48 w-48 bg-emerald-600">square one</div>
+            <div class="h-48 w-48 bg-sky-600">square two</div>
+            <div class="h-48 w-48 bg-purple-600">square three</div>
+        </div>
+
+        <!------------------------------------------------------------INLINE-BLOCK------------------------------------------------------------>
+        <h3 class="font-bold text-2xl border-b border-b-zinc-500 pb-4 mt-12">inline-block == display: inline-block</h3>
+
+        <div class="mt-8">
+            <p class="block text-lg font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                distinctio tempora voluptatibus magnam rem ipsa laudantium placeat a delectus pariatur, voluptas maxime
+                ut obcaecati tenetur optio sit! Est, sunt hic. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="inline-block font-medium bg-red-600 p-1"> This is a span with display inline-block</span>
+                Odio rerum porro sint. Odio sequi similique, quaerat quibusdam eos earum distinctio dicta ipsum! Ipsum
+                exercitationem distinctio reiciendis, tempora commodi sit id! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Id, quisquam! Quas labore beatae quisquam sunt sapiente voluptatum a necessitatibus
+                provident commodi, tenetur temporibus quaerat voluptate harum nulla aliquam molestiae voluptas.
+            </p>
+        </div>
+
+        <div class="inline-block mt-8">
+            <div class="h-48 w-48 bg-emerald-600">square one</div>
+            <div class="h-48 w-48 bg-sky-600">square two</div>
+            <div class="h-48 w-48 bg-purple-600">square three</div>
+        </div>
+
+        <!------------------------------------------------------------FLEX------------------------------------------------------------>
+        <h3 class="font-bold text-2xl border-b border-b-zinc-500 pb-4 mt-12">flex == display: flex</h3>
+
+        <div class="mt-8">
+            <p class="block text-lg font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                distinctio tempora voluptatibus magnam rem ipsa laudantium placeat a delectus pariatur, voluptas maxime
+                ut obcaecati tenetur optio sit! Est, sunt hic. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="flex font-medium bg-red-600 p-1">
+                    <img class="logo" src="logo-tailwind.png" alt="logo-tailwind">
+                    This is a span with display flex
+                </span>
+                Odio rerum porro sint. Odio sequi similique, quaerat quibusdam eos earum distinctio dicta ipsum! Ipsum
+                exercitationem distinctio reiciendis, tempora commodi sit id! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Id, quisquam! Quas labore beatae quisquam sunt sapiente voluptatum a necessitatibus
+                provident commodi, tenetur temporibus quaerat voluptate harum nulla aliquam molestiae voluptas.
+            </p>
+        </div>
+
+        <div class="flex mt-8">
+            <div class="h-48 w-48 bg-emerald-600">square one</div>
+            <div class="h-48 w-48 bg-sky-600">square two</div>
+            <div class="h-48 w-48 bg-purple-600">square three</div>
+        </div>
+
+        <!------------------------------------------------------------INLINE-FLEX------------------------------------------------------------>
+        <h3 class="font-bold text-2xl border-b border-b-zinc-500 pb-4 mt-12">inline-flex == display: inline-flex</h3>
+
+        <div class="mt-8">
+            <p class="block text-lg font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                distinctio tempora voluptatibus magnam rem ipsa laudantium placeat a delectus pariatur, voluptas maxime
+                ut obcaecati tenetur optio sit! Est, sunt hic. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="inline-flex font-medium bg-red-600 p-1">
+                    <img class="logo" src="logo-tailwind.png" alt="logo-tailwind">
+                    This is a span with display inline-flex
+                </span>
+                Odio rerum porro sint. Odio sequi similique, quaerat quibusdam eos earum distinctio dicta ipsum! Ipsum
+                exercitationem distinctio reiciendis, tempora commodi sit id! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Id, quisquam! Quas labore beatae quisquam sunt sapiente voluptatum a necessitatibus
+                provident commodi, tenetur temporibus quaerat voluptate harum nulla aliquam molestiae voluptas.
+            </p>
+        </div>
+
+        <div class="inline-flex mt-8">
+            <div class="h-48 w-48 bg-emerald-600">square one</div>
+            <div class="h-48 w-48 bg-sky-600">square two</div>
+            <div class="h-48 w-48 bg-purple-600">square three</div>
+        </div>
+
+        <!------------------------------------------------------------GRID-------------------------------------------------------------------->
+        <h3 class="font-bold text-2xl border-b border-b-zinc-500 pb-4 mt-12">grid == display: grid</h3>
+
+        <div class="mt-8">
+            <p class="block text-lg font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                distinctio tempora voluptatibus magnam rem ipsa laudantium placeat a delectus pariatur, voluptas maxime
+                ut obcaecati tenetur optio sit! Est, sunt hic. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="grid font-medium bg-red-600 p-1">
+                    <img class="logo" src="logo-tailwind.png" alt="logo-tailwind">
+                    This is a span with display grid
+                </span>
+                Odio rerum porro sint. Odio sequi similique, quaerat quibusdam eos earum distinctio dicta ipsum! Ipsum
+                exercitationem distinctio reiciendis, tempora commodi sit id! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Id, quisquam! Quas labore beatae quisquam sunt sapiente voluptatum a necessitatibus
+                provident commodi, tenetur temporibus quaerat voluptate harum nulla aliquam molestiae voluptas.
+            </p>
+        </div>
+
+        <div class="grid mt-8">
+            <div class="h-48 w-48 bg-emerald-600">square one</div>
+            <div class="h-48 w-48 bg-sky-600">square two</div>
+            <div class="h-48 w-48 bg-purple-600">square three</div>
+        </div>
+
+
+        <!------------------------------------------------------------INLINE-GRID------------------------------------------------------------->
+        <h3 class="font-bold text-2xl border-b border-b-zinc-500 pb-4 mt-12">inline-grid == display: inline-grid</h3>
+
+        <div class="mt-8">
+            <p class="block text-lg font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+                distinctio tempora voluptatibus magnam rem ipsa laudantium placeat a delectus pariatur, voluptas maxime
+                ut obcaecati tenetur optio sit! Est, sunt hic. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <span class="inline-grid font-medium bg-red-600 p-1">
+                    <img class="logo" src="logo-tailwind.png" alt="logo-tailwind">
+                    This is a span with display inline-grid
+                </span>
+                Odio rerum porro sint. Odio sequi similique, quaerat quibusdam eos earum distinctio dicta ipsum! Ipsum
+                exercitationem distinctio reiciendis, tempora commodi sit id! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Id, quisquam! Quas labore beatae quisquam sunt sapiente voluptatum a necessitatibus
+                provident commodi, tenetur temporibus quaerat voluptate harum nulla aliquam molestiae voluptas.
+            </p>
+        </div>
+
+        <div class="inline-grid mt-8">
+            <div class="h-48 w-48 bg-emerald-600">square one</div>
+            <div class="h-48 w-48 bg-sky-600">square two</div>
+            <div class="h-48 w-48 bg-purple-600">square three</div>
+        </div>
+    </div>
+</body>
+
+</html>
