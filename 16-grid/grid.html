@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CDN Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="logo-tailwind.png">
+
+    <title>Tailwind-grid-16</title>
+
+</head>
+
+<body class="bg-black text-white">
+    <h2 class="font-bold text-4xl underline text-center p-4 my-8">Grid</h2>
+
+    <div class="p-8">
+
+        <!-- GRID-TEMPLATE-COLUMNS -->
+        <div>
+            <h3 class="text-2xl font-medium text-sky-500 border-b pb-2">grid-template-columns</h3>
+
+            <ul class="list-disc p-8">
+
+                <!-- grid-template-columns: 1fr -->
+                <li>
+                    <h4 class="text-lg font-medium">grid-cols-1</h4>
+
+                    <div class="grid grid-cols-1 mt-4">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- grid-template-columns: 1fr 1fr -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">grid-cols-2</h4>
+
+                    <div class="grid grid-cols-2 mt-4">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- grid-template-columns: 1fr 1fr 1fr -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">grid-cols-3</h4>
+
+                    <div class="grid grid-cols-3 mt-4">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- grid-template-columns: 1fr 1fr 1fr 1fr -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">grid-cols-4</h4>
+
+                    <div class="grid grid-cols-4 mt-4">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- grid-template-columns: 2ff 1fr 1fr 1fr -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">grid-cols-[2fr,1fr,1fr,1fr]</h4>
+
+                    <div class="grid grid-cols-[2fr,1fr,1fr,1fr] mt-4">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- PLACE-ITEMS -->
+        <div>
+            <h3 class="text-2xl font-medium text-sky-500 border-b pb-2">place-items</h3>
+
+            <ul class="list-disc p-8">
+
+                <!-- place-items-center -->
+                <li>
+                    <h4 class="text-lg font-medium">place-items-center</h4>
+
+                    <div class="grid grid-cols-3 place-items-center mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- place-items-start -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">place-items-start</h4>
+
+                    <div class="grid grid-cols-3 place-items-start mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- place-items-end -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">place-items-end</h4>
+
+                    <div class="grid grid-cols-3 place-items-end mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- place-items-stretch -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">place-items-stretch</h4>
+
+                    <div class="grid grid-cols-3 place-items-stretch mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- JUSTIFY-ITEMS -->
+        <div>
+            <h3 class="text-2xl font-medium text-sky-500 border-b pb-2">justify-items</h3>
+
+            <ul class="list-disc p-8">
+
+                <!-- justify-items-start -->
+                <li>
+                    <h4 class="text-lg font-medium">justify-items-start</h4>
+
+                    <div class="grid grid-cols-3 justify-items-start mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- justify-items-end -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">justify-items-end</h4>
+
+                    <div class="grid grid-cols-3 justify-items-end mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- justify-items-center -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">justify-items-center</h4>
+
+                    <div class="grid grid-cols-3 justify-items-center mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- justify-items-stretch -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">justify-items-stretch</h4>
+
+                    <div class="grid grid-cols-3 justify-items-stretch mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ALIGN-ITEMS -->
+        <div>
+            <h3 class="text-2xl font-medium text-sky-500 border-b pb-2">align-items</h3>
+
+            <ul class="list-disc p-8">
+
+                <!-- items-start -->
+                <li>
+                    <h4 class="text-lg font-medium">items-start</h4>
+
+                    <div class="grid grid-cols-3 items-start mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- items-end -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">items-end</h4>
+
+                    <div class="grid grid-cols-3 items-end mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- items-center -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">items-center</h4>
+
+                    <div class="grid grid-cols-3 items-center mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- items-stretch -->
+                <li class="mt-8">
+                    <h4 class="text-lg font-medium">items-stretch</h4>
+
+                    <div class="grid grid-cols-3 items-stretch mt-4 bg-zinc-900 h-72">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- GAP -->
+        <div>
+            <h3 class="text-2xl font-medium text-sky-500 border-b pb-2">gap</h3>
+
+            <ul class="list-disc p-8">
+
+                <!-- gap-x -->
+                <li>
+                    <div class="flex gap-x-16">
+                        <h4 class="text-lg font-medium">gap-x == column-gap</h4>
+                    </div>
+
+                    <div class="grid grid-cols-3 justify-items-stretch mt-4 bg-zinc-900 h-72 gap-x-4">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- gap-y -->
+                <li class="mt-8">
+                    <div class="flex gap-x-16">
+                        <h4 class="text-lg font-medium">gap-y == row-gap</h4>
+                    </div>
+
+                    <div class="grid grid-cols-3 justify-items-stretch mt-4 bg-zinc-900 h-72 gap-y-4">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+
+                <!-- gap -->
+                <li class="mt-8">
+                    <div class="flex gap-x-16">
+                        <h4 class="text-lg font-medium">gap == gap</h4>
+                    </div>
+
+                    <div class="grid grid-cols-3 justify-items-stretch mt-4 bg-zinc-900 h-72 gap-4">
+                        <div class="bg-emerald-600 p-4">element</div>
+                        <div class="bg-orange-500 p-4">element</div>
+                        <div class="bg-pink-600 p-4">element</div>
+                        <div class="bg-blue-600 p-4">element</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

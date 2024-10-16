@@ -1,0 +1,14 @@
+/* text class */
+
+.t-bold {
+    font-weight: bold;
+}
+.t-underline {
+     text-decoration: underline; /* text-decoration -> serve per decorare il testo */
+}
+
+/* layout class */
+
+.l-fd-col {
+    flex-direction: column;
+}
